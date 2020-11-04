@@ -1,0 +1,62 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 76
+  ClientWidth = 700
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Client
+    Size.Width = 700.000000000000000000
+    Size.Height = 76.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Left
+      TabOrder = 0
+      Size.Width = 200.000000000000000000
+      Size.Height = 76.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label1: TLabel
+      Align = Left
+      Position.X = 200.000000000000000000
+      Size.Width = 20.000000000000000000
+      Size.Height = 76.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = '+'
+      TabOrder = 1
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Left
+      TabOrder = 2
+      Position.X = 220.000000000000000000
+      Size.Width = 200.000000000000000000
+      Size.Height = 76.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label2: TLabel
+      Align = Client
+      Size.Width = 200.000000000000000000
+      Size.Height = 76.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+    end
+    object Button1: TButton
+      Align = Left
+      Position.X = 420.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 76.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = '='
+      OnClick = Button1Click
+    end
+  end
+end
